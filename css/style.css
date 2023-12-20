@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(43, 140, 56);
+}
+
+.dash-container{
+    max-width: 1200px;
+    margin: 10px auto;
+    height: calc(100vh - 20px);
+    background-color: rgba(255, 67, 67, 0.87);
+}
+
+.bg-title{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.email-container{
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 300px;
+    background-color: white;
+}
+li{
+    margin: 4px 5px;
+    border-bottom: 1px solid black;
+}
